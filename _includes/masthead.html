@@ -1,0 +1,18 @@
+<header class="masthead">
+  <div class="wrap">
+    <style>
+    h1 a:link{
+      text-decoration: none;
+    }
+  </style>
+
+    {% if site.logo %}
+      <a href="{{ '/' | relative_url }}" class="site-logo" rel="home" title="{{ site.title }}">
+        <img src="{{ site.logo | relative_url }}" class="site-logo-img animated fadeInDown" alt="{{ site.title }}">
+      </a>
+    {% endif %}
+    {% unless page.image.path %}
+      <h1 ><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+    {% endunless %}
+  </div>
+</header><!-- /.masthead -->

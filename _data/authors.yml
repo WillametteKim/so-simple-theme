@@ -1,0 +1,18 @@
+# Site Author
+author:
+  name   : *name # *name is a YAML reference pointing to the &anchor earlier
+  picture: "/assets/images/author.png"
+  email: "willamettehd@gmail.com"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin-in"
+      url: "https://www.linkedin.com/in/hyunsoo-kim-willamette/"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/WillametteKim"
+    - label: "Facebook"
+      icon: "fab fa-facebook-f"
+      url: "https://facebook.com/willametteKim"
+    - label: "Flickr"
+      icon: "fab fa-flickr"
+      url: "https://flickr.com/photos/145503508@N05/"
